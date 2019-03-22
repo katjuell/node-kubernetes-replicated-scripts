@@ -77,4 +77,4 @@ typings/
 
 #DynamoDB Local files 
 .dynamodb/ 
-
+secret.yaml

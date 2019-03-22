@@ -1,1 +1,1 @@
-Project code for tutorial on how to develop a Node.js/MongoDB application using Docker Compose: https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose
+Project code for tutorial on migrating Docker Compose workflow to Kubernetes. Includes resources to create both single instance and replicated setups.
