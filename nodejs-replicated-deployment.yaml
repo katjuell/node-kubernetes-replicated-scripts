@@ -58,9 +58,9 @@ spec:
             port: 8080
           initialDelaySeconds: 120
           periodSeconds: 5
-      initContainers:
-      - name: init-db
-        image: busybox
-        command: ['sh', '-c', 'until nc -z db:27017; do echo waiting for db; sleep 2; done;']        
+     #initContainers:
+     #- name: init-db
+       #image: busybox
+       #command: ['sh', '-c', 'until nc -z db.default.svc.cluster.local:27017; do echo waiting for db; sleep 2; done;']        
       restartPolicy: Always
 status: {}
