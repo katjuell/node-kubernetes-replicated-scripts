@@ -1,1 +1,1 @@
-Project code for tutorial on migrating Docker Compose workflow to Kubernetes. Includes resources to create both single instance and replicated setups.
+Code to create a replicated Node.js/MongoDB application on Kubernetes. Iterates on the methodology outlined [here](https://github.com/pkdone/gke-mongodb-demo): uses script to initialize the replica set after the StatefulSet members are created.

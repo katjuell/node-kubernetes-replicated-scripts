@@ -41,7 +41,7 @@ spec:
             secretKeyRef:
               name: mongo-secret
               key: MONGO_USERNAME        
-        image: katjuell/node-mongo-dev
+        image: katjuell/node-replicas
         name: nodejs
         ports:
         - containerPort: 8080
